@@ -18,12 +18,6 @@ let g:airline_powerline_fonts=1
 let g:airline_theme='molokai'
 set noshowmode
 
-" Colorschemes
-colorscheme molokai
-let g:airline_theme = 'molokai'
-set colorcolumn=81
-autocmd BufWritePre * :%s/\s\+$//e
-
 " Syntastic
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=2

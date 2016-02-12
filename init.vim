@@ -63,3 +63,12 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 " decreasing updatetime
 set updatetime=250
+
+" making clipboard systemwide
+set clipboard=unnamed
+set sessionoptions=buffers
+
+" Colorschemes
+colorscheme molokai
+set colorcolumn=81
+autocmd BufWritePre * :%s/\s\+$//e
