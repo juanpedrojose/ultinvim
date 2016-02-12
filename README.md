@@ -65,6 +65,10 @@ Plugins are managed with [vim-plug](https://github.com/junegunn/vim-plug) - Mini
 All other key bindings are defaults to plugins, like `,cc` to comment line and `,cu` to uncomment line.
 More information available on plugins pages.
 
+### TODO
+1. Add installation script  
+2. Add powerline fonts installation instructions
+
 ### Screenshots
 ![ruby-ultinvim](http://i.imgur.com/z3FVY9r.png "nvim with molokai colorscheme (ruby file)")
 ![vim-ultinvim](http://i.imgur.com/Leb5Qdm.png "nvim with molokai colorscheme(vim file)")
