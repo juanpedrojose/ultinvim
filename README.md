@@ -5,13 +5,13 @@ Insipred by Astrail's [dotvim](https://github.com/astrails/dotvim).
 ### Installation
 This configuration was built and tested on OS X El Capitan.
 Let's assume you are about to install neovim from scratch.
-1. Install `neovim` using `brew install neovim/neovim/neovim`
-2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))
-3. Install neovim's python support using `pip3 install neovim`
-4. Clone repository: `git clone https://github.com/juanpedrojose/ultinvim.git ~/.config/nvim`
-5. run `mkdir -p ~/.config/nvim/backup`
-6. run `nvim +PlugInstall +q` to install plugins and then `nvim` to run nvim with installed plugins
-7. Enjoy your new `nvim` :bowtie:
+1. Install `neovim` using `brew install neovim/neovim/neovim`  
+2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))  
+3. Install neovim's python support using `pip3 install neovim`  
+4. Clone repository: `git clone https://github.com/juanpedrojose/ultinvim.git ~/.config/nvim`  
+5. run `mkdir -p ~/.config/nvim/backup`  
+6. run `nvim +PlugInstall +q` to install plugins and then `nvim` to run nvim with installed plugins  
+7. Enjoy your new `nvim` :bowtie:  
 
 ### Plugins list
 * [NerdTree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for vim
@@ -40,9 +40,11 @@ Let's assume you are about to install neovim from scratch.
 Plugins are managed with [vim-plug](junegunn/vim-plug) - Minimalist Vim Plugin Manager.
 
 ### Custom keybindings
+
 ##### Global
 * leader key: `,`
-* local leader: `\\`
+* local leader: `\\`  
+
 ##### Custom
 * disable search highlight: `Ctrl-n`
 * goto next search location: `,n`
