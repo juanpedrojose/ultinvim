@@ -5,6 +5,7 @@ Insipred by Astrail's [dotvim](https://github.com/astrails/dotvim).
 ### Installation
 This configuration was built and tested on OS X El Capitan.  
 Let's assume you are about to install neovim from scratch.  
+
 1. Install `neovim` using `brew install neovim/neovim/neovim`  
 2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))  
 3. Install neovim's python support using `pip3 install neovim`  
@@ -38,7 +39,7 @@ Let's assume you are about to install neovim from scratch.
 * [vim-blockle](https://github.com/jgdavey/vim-blockle) - Brace yourself, it's time to toggle your ruby blocks! http://www.vim.org/scripts/script.php?script_id=3373
 * [delimitMate](https://github.com/Raimondi/delimitMate) - Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. http://www.vim.org/scripts/script.php?script_id=2754  
 
-Plugins are managed with [vim-plug](junegunn/vim-plug) - Minimalist Vim Plugin Manager.
+Plugins are managed with [vim-plug](https://github.com/junegunn/vim-plug) - Minimalist Vim Plugin Manager.
 
 ### Custom keybindings
 
