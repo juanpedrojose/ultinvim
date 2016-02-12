@@ -5,7 +5,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " CtrlP Configuration
 let g:ctrlp_clear_cache_on_exit = 1
-cal ctrlp#clra()
 let g:ctrlp_max_height = 40
 let g:ctrlp_switch_buffer = 1
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod | grep -viE "\.(png|gif|jpg|gz|woff|eot|tiff|ttf|otf)$"']
@@ -78,3 +77,9 @@ let g:grep_cmd_opts = '--line-number'
 
 " switch
 let g:switch_mapping = "-"
+
+" omni completion settings
+set omnifunc=syntaxcomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1

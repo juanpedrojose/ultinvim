@@ -1,10 +1,3 @@
-" load bundles
-source ~/.config/nvim/bundles.vim
-" load bundles config
-source ~/.config/nvim/plugins.vim
-" load key bindings
-source ~/.config/nvim/bindings.vim
-
 " set default charset
 set encoding=utf-8
 
@@ -20,12 +13,6 @@ set copyindent
 set ts=4                " number of spaces in a tab
 set sw=4                " number of spaces for indent
 set et                  " expand tabs into spaces
-
-" omni completion settings
-set omnifunc=syntaxcomplete#Complete
-autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
-autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " highlight settings
 set incsearch
@@ -72,3 +59,10 @@ set sessionoptions=buffers
 colorscheme molokai
 set colorcolumn=81
 autocmd BufWritePre * :%s/\s\+$//e
+
+" load bundles
+source ~/.config/nvim/bundles.vim
+" load bundles config
+source ~/.config/nvim/plugins.vim
+" load key bindings
+source ~/.config/nvim/bindings.vim
