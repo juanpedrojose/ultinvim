@@ -1,5 +1,6 @@
 " set default charset
 set encoding=utf-8
+set termencoding=utf-8
 
 " disable .swap files
 set noswapfile
@@ -47,6 +48,8 @@ hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " terminal true colors
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+let g:t_Co=256
+let g:molokai_original=1
 
 " decreasing updatetime
 set updatetime=250
