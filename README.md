@@ -8,8 +8,10 @@ Let's assume you are about to install neovim from scratch.
 2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))
 3. Install neovim's python support using `pip3 install neovim`
 4. Clone repository: `git clone https://github.com/juanpedrojose/ultinvim.git ~/.config/nvim`
-5. run `nvim +PlugInstall +q`
-6. Enjoy your new `nvim` :bowtie:
+5. run `mkdir -p ~/.config/nvim/backup`
+6. run `nvim +PlugInstall +q` to install plugins and then `nvim` to run nvim
+   with installed plugins
+7. Enjoy your new `nvim` :bowtie:
 ### Plugins list
 * [NerdTree](scrooloose/nerdtree) - A tree explorer plugin for vim
 * [nerdtree-git-plugin](Xuyuanp/nerdtree-git-plugin) - A plugin of NERDTree showing git status
