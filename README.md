@@ -37,6 +37,7 @@ Let's assume you are about to install neovim from scratch.
 * [vim-surround](https://github.com/tpope/vim-surround) - surround.vim: quoting/parenthesizing made simple http://www.vim.org/scripts/script.php?script_id=1697
 * [vim-blockle](https://github.com/jgdavey/vim-blockle) - Brace yourself, it's time to toggle your ruby blocks! http://www.vim.org/scripts/script.php?script_id=3373
 * [delimitMate](https://github.com/Raimondi/delimitMate) - Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. http://www.vim.org/scripts/script.php?script_id=2754  
+
 Plugins are managed with [vim-plug](junegunn/vim-plug) - Minimalist Vim Plugin Manager.
 
 ### Custom keybindings
