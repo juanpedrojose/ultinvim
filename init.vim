@@ -47,7 +47,7 @@ set list
 hi SpellErrors guibg=red guifg=black ctermbg=red ctermfg=black
 
 " terminal true colors
-"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:t_Co=256
 let g:molokai_original=1
 
@@ -61,7 +61,7 @@ set sessionoptions=buffers
 " Colorschemes
 colorscheme molokai
 set colorcolumn=81
-autocmd BufWritePre * :%s/\s\+$//e
+"autocmd BufWritePre * :%s/\s\+$//e
 
 " load bundles
 source ~/.config/nvim/bundles.vim
