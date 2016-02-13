@@ -69,4 +69,7 @@ Plug 'jgdavey/vim-blockle'
 " delimitmate
 Plug 'Raimondi/delimitMate'
 
+" eunuch
+Plug 'tpope/vim-eunuch'
+
 call plug#end()

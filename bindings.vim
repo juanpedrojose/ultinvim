@@ -50,3 +50,6 @@ nmap <leader>D :Gdiff<space>
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" eunuch
+nmap <C-m> :Move 
