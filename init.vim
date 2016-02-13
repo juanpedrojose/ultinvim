@@ -61,7 +61,7 @@ set sessionoptions=buffers
 " Colorschemes
 colorscheme molokai
 set colorcolumn=81
-"autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 " load bundles
 source ~/.config/nvim/bundles.vim

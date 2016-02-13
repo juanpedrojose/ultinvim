@@ -1,16 +1,16 @@
 # ultinvim
-An attempt at The Ultimate Nvim Configuration™ with focus on Rails development.
+An attempt at The Ultimate Nvim Configuration™ with focus on Rails development.  
 Insipred by Astrail's [dotvim](https://github.com/astrails/dotvim).
 ### Installation
 This configuration was built and tested on OS X El Capitan, *iTerm2 Build 2.9+*, *nvim v0.1.2*.
 Let's assume you are about to install neovim from scratch.
-1. Install `neovim` using `brew install neovim/neovim/neovim`
-2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))
-3. Install neovim's python support using `pip3 install neovim`
-4. Clone repository: `git clone https://github.com/juanpedrojose/ultinvim.git ~/.config/nvim`
-5. run `mkdir -p ~/.config/nvim/backup`
-6. run `nvim +PlugInstall +q` to install plugins and then `nvim` to run nvim with installed plugins
-7. Enjoy your new `nvim` :bowtie:
+1. Install `neovim` using `brew install neovim/neovim/neovim`  
+2. Install `python3` using `brew install python3` (needed to run [deoplete](https://github.com/Shougo/deoplete.nvim))  
+3. Install neovim's python support using `pip3 install neovim`  
+4. Clone repository: `git clone https://github.com/juanpedrojose/ultinvim.git ~/.config/nvim`  
+5. run `mkdir -p ~/.config/nvim/backup`  
+6. run `nvim +PlugInstall +q` to install plugins and then `nvim` to run nvim with installed plugins  
+7. Enjoy your new `nvim` :bowtie:  
 
 To install *powerline* fonts fonts please read [this](https://powerline.readthedocs.org/en/latest/installation/linux.html#fonts-installation).
 ### Plugins list
@@ -40,10 +40,13 @@ To install *powerline* fonts fonts please read [this](https://powerline.readthed
 * [eunuch.vim](https://github.com/tpope/vim-eunuch) - Vim sugar for the UNIX shell commands that need it the most
 
 Plugins are managed with [vim-plug](https://github.com/junegunn/vim-plug) - Minimalist Vim Plugin Manager.
+
 ### Custom keybindings
+
 ##### Global
 * leader key: `,`
 * local leader: `\\`  
+
 ##### Custom
 * disable search highlight: `Ctrl-n`
 * goto next search location: `,n`
@@ -62,14 +65,14 @@ Plugins are managed with [vim-plug](https://github.com/junegunn/vim-plug) - Mini
 
 All other key bindings are defaults to plugins, like `,cc` to comment line and `,cu` to uncomment line.
 More information available on plugins pages.
+
 ### TODO
-1. Add installation script
-2. ~~Add powerline fonts installation instructions~~
+1. Add installation script  
+2. ~~Add powerline fonts installation instructions~~  
 
 ### Optional
-To use truecolor colorscheme please refer to this
-[table](https://powerline.readthedocs.org/en/latest/usage.html#term-feature-support-matrix) and be sure to use terminal with 24-bit color support.
-Important note ! iTerm2 support 24-bit color output in latest beta releases (2.9+).
+To use truecolor colorscheme please refer to this [table](https://powerline.readthedocs.org/en/latest/usage.html#term-feature-support-matrix) and be sure to use terminal with 24-bit color support.  
+Important note ! iTerm2 support 24-bit color output in latest beta releases (2.9+).  
 To enable just uncomment the line:50 `let $NVIM_TUI_ENABLE_TRUE_COLOR=1` in your `~/.config/nvim/init.vim` file.
 
 ### Screenshots
